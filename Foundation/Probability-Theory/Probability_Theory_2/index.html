@@ -990,6 +990,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#properties-of-probability-function" class="md-nav__link">
+    <span class="md-ellipsis">
+      Properties of Probability Function
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#defining-probability-functions" class="md-nav__link">
     <span class="md-ellipsis">
       Defining Probability Functions
@@ -1000,9 +1009,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#as-relatiive-frequency" class="md-nav__link">
+  <a href="#as-relative-frequency" class="md-nav__link">
     <span class="md-ellipsis">
-      As Relatiive Frequency
+      As Relative Frequency
     </span>
   </a>
   
@@ -1202,6 +1211,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#properties-of-probability-function" class="md-nav__link">
+    <span class="md-ellipsis">
+      Properties of Probability Function
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#defining-probability-functions" class="md-nav__link">
     <span class="md-ellipsis">
       Defining Probability Functions
@@ -1212,9 +1230,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#as-relatiive-frequency" class="md-nav__link">
+  <a href="#as-relative-frequency" class="md-nav__link">
     <span class="md-ellipsis">
-      As Relatiive Frequency
+      As Relative Frequency
     </span>
   </a>
   
@@ -1660,14 +1678,14 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>We have learnt in previous chapter about Experiments, Sample Space and Events. One important information about the events is the chance/probability of it's occurance.</p>
-<h1 id="probability-function">Probability Function<a class="anchor-link" href="#probability-function">¶</a></h1><details><summary>What is the chance of an event?</summary>
-**Goal** : Assign a number to each event such that this number reflects the chance of the experiment resulting in that event
+<h1 id="probability-function"><strong>Probability Function</strong><a class="anchor-link" href="#probability-function">¶</a></h1><details><summary>What is the chance of an event?</summary>
+<strong>Goal</strong>: Assign a number to each event such that this number reflects the chance of the experiment resulting in that event
 
 </details>
-
+<br/>
 <p>Let's start our discussion by looking at the conditions that such a probability function must satisfy?</p>
-
-<h2 id="axioms-of-probability">Axioms of Probability<a class="anchor-link" href="#axioms-of-probability">¶</a></h2>
+<br/>
+<h2 id="axioms-of-probability"><strong>Axioms of Probability</strong><a class="anchor-link" href="#axioms-of-probability">¶</a></h2><br/>
 <table>
 <thead>
 <tr>
@@ -1690,156 +1708,110 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 </tr>
 </tbody>
 </table>
-
+<br/>
 <p>✅ The first Axiom defines the probability to be non negative i.e it should be greater than or equal to zero.</p>
 <p>✅ The second Axiom says that the probability of sample space is 1.</p>
 <p>✅ Third Axiom defines the probability of an event can be computed as the sum of the probability of the disjoint outcomes contained in the event.</p>
-
+<br/>
 <p>All probability functions must follow the Axioms of probability and once they follow the Axioms, certain property gets associated with it. Let's look at some of the Properties of Probability</p>
-
+<br/>
+<h2 id="properties-of-probability-function"><strong>Properties of Probability Function</strong><a class="anchor-link" href="#properties-of-probability-function">¶</a></h2><br/>
 <hr/>
-<p><code>Property 1</code> : $ P(A) = 1 - P(A^c) $</p>
+<p><code>Property 1</code> : $$ P(A) = 1 - P(A^c) $$</p>
 <p><code>Proof</code> :
-$ A ∪ A^c = Ω $</p>
-<p>$ P(A ∪ A^c ) = P(A) +P(A^c) $
-$ 1 = P(A) +P(A^c) $</p>
-<p>$\therefore   P(A) = 1 - P(A^c) $</p>
-
+$$ A ∪ A^c = Ω $$</p>
+<p>$$ P(A ∪ A^c ) = P(A) +P(A^c) $$
+$$ 1 = P(A) +P(A^c) $$</p>
+<p>$$\therefore   P(A) = 1 - P(A^c) $$</p>
 <hr/>
-<p><code>Property 2</code> : $P(A) ≤ 1$</p>
-<p>Proof :
-$ \because P(A) = 1 - P(A^c) $
-As, $P(A^c) ≥ 0$</p>
-<p>so,  $P(A) ≤ 1$</p>
-
+<p><code>Property 2</code> : $$P(A) ≤ 1$$</p>
+<p><code>Proof</code> :
+$$ \because P(A) = 1 - P(A^c) $$
+$$As, \: P(A^c) ≥ 0$$</p>
+<p>$$so, \:  P(A) ≤ 1$$</p>
 <hr/>
-<p><code>Property 3</code> : $P(A ∪ B) = P(A) + P(B) - P(A ∩ B)$</p>
-<p>Proof :
-$ P(A ∪ B) = P(A ∪ (B ∩ A^c))$
-$  = P(A) + P(B ∩ A^c)$
-$ = P(A) + P(B) - P(B ∩ A)$</p>
-
-<p>$ \because P(B ∩ A^c) = P(B) - P(B ∩ A)$</p>
-<p>As, $ P(B) = P((B ∩ A^c) ∪ (B ∩ A))$</p>
-
-<p>$ P(B) = P(B ∩ A^c) + P(B ∩ A)$
-$ P(B ∩ A^c) = P(B) - P(B ∩ A)$</p>
-
+<p><code>Property 3</code> : $$P(A ∪ B) = P(A) + P(B) - P(A ∩ B)$$</p>
+<p><code>Proof</code> :
+$$ P(A ∪ B) = P(A ∪ (B ∩ A^c))$$
+$$  = P(A) + P(B ∩ A^c)$$
+$$ = P(A) + P(B) - P(B ∩ A)$$</p>
+<p>$$ \because P(B ∩ A^c) = P(B) - P(B ∩ A)$$</p>
+<p>As, $$ P(B) = P((B ∩ A^c) ∪ (B ∩ A))$$</p>
+<p>$$ P(B) = P(B ∩ A^c) + P(B ∩ A)$$
+$$ P(B ∩ A^c) = P(B) - P(B ∩ A)$$</p>
 <hr/>
 <p><code>Property 4</code> : The sum of the probabilities of all outcomes is equal to 1
 $$Ω = A_1 ∪ A_2 ∪ .... ∪ A_n$$</p>
-
 <hr/>
 <p><code>Property 5</code> : $$P(Φ) = 0$$
 $$P(Ω) = P(Ω ∪ Φ) = P(Ω) + P(Φ) $$
 $$⇒ 1 = 1 + P(\phi)$$
 $$⇒ P(\phi) = 0$$</p>
-
 <hr/>
-
-<h2 id="defining-probability-functions">Defining Probability Functions<a class="anchor-link" href="#defining-probability-functions">¶</a></h2><h3 id="as-relatiive-frequency">As Relatiive Frequency<a class="anchor-link" href="#as-relatiive-frequency">¶</a></h3>
-<p><code>Goal</code> : Assign a number to each event such that this number reflects the chance of the experiment resulting in that event</p>
-
+<br/>
+<h2 id="defining-probability-functions"><strong>Defining Probability Functions</strong><a class="anchor-link" href="#defining-probability-functions">¶</a></h2><h3 id="as-relative-frequency"><strong>As Relative Frequency</strong><a class="anchor-link" href="#as-relative-frequency">¶</a></h3><p><code>Goal</code> : Assign a number to each event such that this number reflects the chance of the experiment resulting in that event</p>
 <p>Thus we have to come up with a function to which when we pass an event, it will assign a number that reflects the chance of experiment resulting in that event.</p>
-
 <p><code>Required</code> : The probability function must satisfy the axioms of probability</p>
-
+<br/>
 <details>
 <summary>What could such a function be ?</summary>
-
+<br/>
 <p>✅ We can think of the probability of an event as the fraction of times the event occurs when an experiment is repeated a <code>large number</code> of times.</p>
 </details>
-
 <p>Thus Relative frequency could be defined as :</p>
-
+<br/>
 <p>$P(A_i) = \frac{no.\: of \:times \:the \:outcome\: is\: in \:A_i}{total\: no.\: of\: times\: the\: experiment\: was\: repeated}$</p>
-
-<details><summary>❓ But does such a Probability function satisfy Axioms</summary>
-
+<br/>
+<details><summary> But does such a Probability function satisfy Axioms</summary>
+<br/>
 <p>$$1. \: P(A_i) ≥ 0 \: $$: Since it is a ratio of two positive number</p>
 <p>$$2. P(Ω) = 1?$$</p>
 <p>$$3. P(Ω) = \frac{no.\: of \:times \:the \:outcome\: is\: present \: in \:Ω}{total\: no.\: of\: times\: the\: experiment\: was\: repeated} = 1$$</p>
 </details>
-
-<p>Suppose $$A_1, A_2, ... A_n $$ are the outcomes, then every event is a union of these outcomes</p>
-<p>If the frequencies of $$A_1, A_2.... A_n $$ are known then the probability of any event can be computed</p>
-<p>Although there are $$A_1, A_2.... A_n $$ outcomes. The number of events is 2^n and every event is a union of these outcomes. Thus the Axioms are more about events then outcomes.</p>
-
-<h3 id="as-equally-likely-outcomes">As equally likely outcomes<a class="anchor-link" href="#as-equally-likely-outcomes">¶</a></h3>
+<br/>
+<p>Suppose $A_1, A_2, ... A_n $ are the outcomes, then every event is a union of these outcomes</p>
+<p>If the frequencies of $A_1, A_2.... A_n $ are known then the probability of any event can be computed</p>
+<p>Although there are $A_1, A_2.... A_n $ outcomes. The number of events is 2^n and every event is a union of these outcomes. Thus the Axioms are more about events then outcomes.</p>
+<br/>
+<h3 id="as-equally-likely-outcomes"><strong>As equally likely outcomes</strong><a class="anchor-link" href="#as-equally-likely-outcomes">¶</a></h3><br/>
 <p>For an equally likely outcome</p>
 <p>$$P(H) = P(T)=k$$
 $$Ω = H ∪ T$$
 $$P(Ω) = P(H ∪ T)$$
 $$= P(H) + P(T)$$
 $$= 2k$$</p>
-<p>Thus $$P(H) = P(T) = k = \frac{1}{2}$$</p>
-
-<p>Thus for equally likely outcomes</p>
-
-<p>If $A_i$ : event that the outcome is i</p>
+<p>$$Thus, \: \: P(H) = P(T) = k = \frac{1}{2}$$</p>
+<br/>
+<p>Thus for equally likely outcomes, If $A_i$ : event that the outcome is i</p>
 <p>then,
-$$A_1, A_2, A_3, A_4, A_5, A_6 \: partition\: Ω$$</p>
+$$A_1, A_2, A_3, A_4, A_5, A_6 \: partitions\: Ω$$</p>
 <p>$$P(A_1) = P(A_2) = P(A_3) = P(A_4) = P(A_5)
  = P(A_6) = k$$</p>
 <p>$$P(Ω) = ∑_{i=1}^6 P(A_i) = 6k =1$$</p>
-
-<summary>❓ Can we derive a formula for computing the probability of events of an experiment with n equally likely outcomes</summary>
-
-<p>E : any event with k outcomes (the outcomes are of course disjoint)</p>
+<br/>
+<p>❓<strong>Can we derive a formula for computing the probability of events of an experiment with n equally likely outcomes?</strong></p>
+<br/>
+<p>Let E : any event with k outcomes (the outcomes are of course disjoint)</p>
 <p>then,
 $$P(E) = ∑_{i=1}^k \frac{1}{n} = \frac{k}{n}$$</p>
 <p>finally,
 $$ P(X) = \frac{number\: of \: outcomes \: in \: X}{number \: of \: outcomes \: in \: Ω} $$</p>
-
-
-<summary>❓ Are the Axioms of Probability Satisfied?</summary>
-
+<br/>
+<p>❓ <strong>Are the Axioms of Probability Satisfied?</strong></p>
+<br/>
 <p>$1. \: P(A_i) ≥ 0 \: $: Since it is a ratio of two positive number</p>
 <p>$2. P(Ω) = 1? $ :  $Ω$ contains all outcomes</p>
 <p>$3. P(A_1 ∪ A_2) = P(A_1)+P(A_2)?:$
 $ P(A_1 ∪ A_2) = \frac{k_1 + k_2}{n} = \frac{k1}{n} + \frac{k2}{n} = P(A_1) + P(A_2)$</p>
-
+<br/>
 <p>Examples :</p>
-
 <details><summary>What is the probability of getting a black card?</summary>
-
 <p>$$P(B) = \frac{26}{52}$$</p>
 </details>
-
-
 <details><summary>What is the probability of getting 3 aces?</summary>
-
-<p>$$n = $\binom{52}{3} = 22100$$$</p>
+<p>$$n = \binom{52}{3} = 22100$$</p>
 <p>$$P(A) = \frac{4}{22100}$$</p>
 </details>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="CodeMirror cm-s-jupyter">
-<div class="zeroclipboard-container">
-<clipboard-copy for="cell-1">
-<div>
-<span class="notice" hidden="">Copied!</span>
-<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
-<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-</svg>
-</div>
-</clipboard-copy>
-</div>
-<div class="highlight-ipynb hl-python"><pre><span></span>
-</pre></div>
-<div class="clipboard-copy-txt" id="cell-1"></div>
-</div>
-</div>
 </div>
 </div>
 </div>
