@@ -1,0 +1,1323 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://explainableacademy.com/RoadMaps/Deep_Learning/">
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.3">
+    
+    
+      
+        <title>Deep Learning Roadmap 🛣️ - Explainable Academy</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Epilogue:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Epilogue";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-R7ND3HM335"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-R7ND3HM335",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-R7ND3HM335",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+  
+    <script>var consent;"undefined"==typeof __md_analytics||(consent=__md_get("__consent"))&&consent.analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  
+  
+    <meta name="keywords" content="Explainable Academy, Deep Learning, Machine Learning, AI, GPT, LLM" />
+  
+
+  
+    <meta name="google-adsense-account" content="ca-pub-2234316461590654" />
+  
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+            
+  <!-- Add announcement here, including arbitrary HTML -->
+  <center>
+    For updates follow us on <a href="https://www.instagram.com/ExplainableAcademy" ><svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#c92cc4}</style><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg> Instagram</a> and <a href = "https://www.youtube.com/@ExplainableAcademy/"><svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#d31212}</style><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg> Youtube</a>
+  </center>  
+
+          </div>
+          
+        </aside>
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Explainable Academy" class="md-header__button md-logo" aria-label="Explainable Academy" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Explainable Academy
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Deep Learning Roadmap 🛣️
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="purple"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="purple"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/atulkrjha/ExplainableAcademy" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    atulkrjha/ExplainableAcademy
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home 🏠
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../About/" class="md-tabs__link">
+        
+  
+    
+  
+  About 👷🏽‍♂️
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Foundation/" class="md-tabs__link">
+          
+  
+  👾 Foundation
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Advance/" class="md-tabs__link">
+        
+  
+    
+  
+  Advance 👩🏽‍🎓
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../" class="md-tabs__link">
+        
+  
+    
+  
+  RoadMaps 🧗🏽‍♂️
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Projects/" class="md-tabs__link">
+        
+  
+    
+  
+  Projects 📒
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Social/" class="md-tabs__link">
+        
+  
+    
+  
+  Social Hub 🌐
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Newsletter/" class="md-tabs__link">
+        
+  
+    
+  
+  Newsletter 📰
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Contact/" class="md-tabs__link">
+        
+  
+    
+  
+  Contact Us 🙋‍♀️
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Explainable Academy" class="md-nav__button md-logo" aria-label="Explainable Academy" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    Explainable Academy
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/atulkrjha/ExplainableAcademy" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    atulkrjha/ExplainableAcademy
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home 🏠
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../About/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About 👷🏽‍♂️
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    👾 Foundation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            👾 Foundation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Foundation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Foundation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    👩🏽‍💻 Foundation of Data Science
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            👩🏽‍💻 Foundation of Data Science
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Foundation/Data-Science/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_2" id="__nav_3_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    🍥 Engineer DataScience System
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            🍥 Engineer DataScience System
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Foundation/Engineer-DSS/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    📊 Statistics
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            📊 Statistics
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Foundation/Statistics/Introduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3_2" id="__nav_3_3_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    🍥 Descriptive Statistics
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            🍥 Descriptive Statistics
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Foundation/Statistics/Descriptive-Statistics/Introduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Foundation/Statistics/Descriptive-Statistics/Measure-Of-Centrality/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Measure Of Centrality
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Foundation/Statistics/Descriptive-Statistics/Measure-Of-Spread/Percentiles/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Measure Of Spread
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Advance/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Advance 👩🏽‍🎓
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RoadMaps 🧗🏽‍♂️
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Projects/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Projects 📒
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Social/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Social Hub 🌐
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Newsletter/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Newsletter 📰
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact Us 🙋‍♀️
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<p><center></p>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Do not edit this file with editors other than draw.io -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<p><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="628px" height="2567px" viewBox="-0.5 -0.5 628 2567" content="&lt;mxfile modified=&quot;2023-10-28T13:54:24.263Z&quot; host=&quot;app.diagrams.net&quot; agent=&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36&quot; etag=&quot;ZhkSRTn-W5On2YrZemSZ&quot; compressed=&quot;false&quot; version=&quot;22.0.8&quot; type=&quot;device&quot;&gt;&lt;diagram id=&quot;HEeXjzhvv4987mpRdfDT&quot; name=&quot;Page-3&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;" style="background-color: rgb(255, 255, 255);"><defs/><g><path d="M 241.5 145.5 Q 241.5 172.8 188.75 172.8 Q 136 172.8 136 200" fill="none" stroke="#1f6286" stroke-miterlimit="10" pointer-events="stroke"/><rect x="131" y="100.5" width="221" height="45" rx="6.75" ry="6.75" fill="none" stroke="none" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 123px; margin-left: 242px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 24px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;"><h1 style="font-size: 24px"><font style="font-size: 24px">Deep Learning</font></h1></div></div></div></foreignObject><text x="242" y="130" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="24px" text-anchor="middle">Deep Learning</text></switch></g><path d="M 231 0 Q 271 20 241 45 Q 211 70 241.5 100.5" fill="none" stroke="#1f6286" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/><a xlink:href="https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap"><rect x="51" y="200" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="51" y="200" width="170" height="40" rx="6" ry="6" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 168px; height: 1px; padding-top: 220px; margin-left: 52px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">Deep Learning Papers Reading Roadmap</div></div></div></foreignObject><text x="136" y="224" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Deep Learning Papers Reading...</text></switch></g></a><rect x="19" y="169.5" width="110" height="20" fill="none" stroke="none" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 180px; margin-left: 74px;"><div data-drawio-colors="color: #FFFFFF; " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 16px; font-family: Helvetica; color: rgb(255, 255, 255); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: nowrap;"><font color="#000000">Resources</font></div></div></div></foreignObject><text x="74" y="184" fill="#FFFFFF" font-family="Helvetica" font-size="16px" text-anchor="middle" font-weight="bold">Resources</text></switch></g><a xlink:href="https://paperswithcode.com/"><rect x="51" y="250" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="51" y="250" width="170" height="40" rx="6" ry="6" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 270px; margin-left: 136px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Papers with code</div></div></div></foreignObject><text x="136" y="274" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Papers with code</text></switch></g></a><path d="M 136 340 Q 136 370 201 370 Q 266 370 266 400" fill="none" stroke="#1f6286" stroke-miterlimit="10" pointer-events="stroke"/><a xlink:href="https://paperswithcode.com/sota"><rect x="51" y="300" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="51" y="300" width="170" height="40" rx="6" ry="6" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 168px; height: 1px; padding-top: 320px; margin-left: 52px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">Papers with code - state of the art (SOTA)</div></div></div></foreignObject><text x="136" y="324" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Papers with code - state of...</text></switch></g></a><rect x="181" y="400" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="181" y="400" width="170" height="40" rx="6" ry="6" fill="#f8cecc" stroke="#b85450" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 420px; margin-left: 266px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Fundamentals of<br /> Neural Network</div></div></div></foreignObject><text x="266" y="424" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Fundamentals of...</text></switch></g><rect x="282.25" y="369.5" width="110" height="20" fill="none" stroke="none" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 380px; margin-left: 337px;"><div data-drawio-colors="color: #FFFFFF; " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 16px; font-family: Helvetica; color: rgb(255, 255, 255); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: nowrap;"><font style="font-size: 16px" color="#000000">Neural Networks</font></div></div></div></foreignObject><text x="337" y="384" fill="#FFFFFF" font-family="Helvetica" font-size="16px" text-anchor="middle" font-weight="bold">Neural Networks</text></switch></g><a xlink:href="https://en.wikipedia.org/wiki/Feedforward_neural_network"><rect x="56" y="755" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="56" y="755" width="170" height="40" rx="6" ry="6" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 775px; margin-left: 141px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Feedforward neural network</div></div></div></foreignObject><text x="141" y="779" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Feedforward neural network</text></switch></g></a><a xlink:href="https://en.wikipedia.org/wiki/Autoencoder"><rect x="57" y="809" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="57" y="809" width="170" height="40" rx="6" ry="6" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 829px; margin-left: 142px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Autoencoder</div></div></div></foreignObject><text x="142" y="833" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Autoencoder</text></switch></g></a><a xlink:href="https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53"><rect x="57" y="860" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="57" y="860" width="170" height="40" rx="6" ry="6" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 880px; margin-left: 142px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Convolutional Neural Network<br />(CNN)</div></div></div></foreignObject><text x="142" y="884" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Convolutional Neural Network...</text></switch></g></a><a xlink:href="https://en.wikipedia.org/wiki/Generative_adversarial_network"><rect x="57" y="1059" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="57" y="1059" width="170" height="40" rx="6" ry="6" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 168px; height: 1px; padding-top: 1079px; margin-left: 58px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">Generative Adversarial Network (GAN)</div></div></div></foreignObject><text x="142" y="1083" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Generative Adversarial Netwo...</text></switch></g></a><rect x="32" y="669.5" width="110" height="20" fill="none" stroke="none" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 680px; margin-left: 87px;"><div data-drawio-colors="color: #FFFFFF; " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 16px; font-family: Helvetica; color: rgb(255, 255, 255); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: nowrap;"><font style="font-size: 16px" color="#000000">Architectures<br /></font></div></div></div></foreignObject><text x="87" y="684" fill="#FFFFFF" font-family="Helvetica" font-size="16px" text-anchor="middle" font-weight="bold">Architectures&#xa;</text></switch></g><rect x="25" y="1884" width="170" height="40" rx="6" ry="6" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1904px; margin-left: 110px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Important Libraries</div></div></div></foreignObject><text x="110" y="1908" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Important Libraries</text></switch></g><rect x="0" y="1845" width="110" height="20" fill="none" stroke="none" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1855px; margin-left: 55px;"><div data-drawio-colors="color: #FFFFFF; " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 16px; font-family: Helvetica; color: rgb(255, 255, 255); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: nowrap;"><font style="font-size: 16px" color="#000000">Tools</font></div></div></div></foreignObject><text x="55" y="1860" fill="#FFFFFF" font-family="Helvetica" font-size="16px" text-anchor="middle" font-weight="bold">Tools</text></switch></g><path d="M 267 2424.5 Q 267 2459.8 210.5 2459.8 Q 154 2459.8 154 2495" fill="none" stroke="#1f6286" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/><a xlink:href="https://pytorch.org/"><rect x="25" y="1983.5" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="25" y="1983.5" width="170" height="40" rx="6" ry="6" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 2004px; margin-left: 110px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">PyTorch</div></div></div></foreignObject><text x="110" y="2007" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">PyTorch</text></switch></g></a><rect x="45" y="2495" width="218" height="60" rx="9" ry="9" fill="none" stroke="none" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 216px; height: 1px; padding-top: 2525px; margin-left: 46px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 22px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;"><h1 style="font-size: 22px;"><font style="font-size: 22px;">keep exploring and stay up-to-date</font></h1></div></div></div></foreignObject><text x="154" y="2532" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="22px" text-anchor="middle">keep exploring and s...</text></switch></g><a xlink:href="https://en.wikipedia.org/wiki/Recurrent_neural_network"><rect x="57" y="910" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="57" y="910" width="170" height="40" rx="6" ry="6" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 930px; margin-left: 142px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Recurrent Neural Network<br />(RNN)</div></div></div></foreignObject><text x="142" y="934" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Recurrent Neural Network...</text></switch></g></a><path d="M 287 915 Q 257 915 257 922.5 Q 257 930 227 930" fill="none" stroke="#1f6286" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/><rect x="287" y="905" width="140" height="20" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="287" y="905" width="140" height="20" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 915px; margin-left: 357px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;"><span style="font-size: 11px;">LSTM</span></div></div></div></foreignObject><text x="357" y="918" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">LSTM</text></switch></g><path d="M 287 945 Q 257 945 257 937.5 Q 257 930 227 930" fill="none" stroke="#1f6286" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/><rect x="287" y="935" width="140" height="20" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="287" y="935" width="140" height="20" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 945px; margin-left: 357px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;"><font style="font-size: 11px;">GRU</font></div></div></div></foreignObject><text x="357" y="948" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">GRU</text></switch></g><a xlink:href="https://www.tensorflow.org/"><rect x="25" y="1933.5" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="25" y="1933.5" width="170" height="40" rx="6" ry="6" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1954px; margin-left: 110px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Tensorflow</div></div></div></foreignObject><text x="110" y="1957" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Tensorflow</text></switch></g></a><rect x="181" y="449.5" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="181" y="449.5" width="170" height="40" rx="6" ry="6" fill="#f8cecc" stroke="#b85450" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 470px; margin-left: 266px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Loss Functions</div></div></div></foreignObject><text x="266" y="473" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Loss Functions</text></switch></g><rect x="181" y="499.5" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="181" y="499.5" width="170" height="40" rx="6" ry="6" fill="#f8cecc" stroke="#b85450" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 520px; margin-left: 266px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Activation Functions</div></div></div></foreignObject><text x="266" y="523" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Activation Functions</text></switch></g><rect x="182" y="549.5" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="182" y="549.5" width="170" height="40" rx="6" ry="6" fill="#f8cecc" stroke="#b85450" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 570px; margin-left: 267px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Weight Initialization</div></div></div></foreignObject><text x="267" y="573" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Weight Initialization</text></switch></g><path d="M 267 635 Q 267 670.3 204.5 670.3 Q 142 670.3 142 699.13" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 142 704.38 L 138.5 697.38 L 142 699.13 L 145.5 697.38 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/><rect x="182" y="599.5" width="170" height="35.5" rx="5.33" ry="5.33" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="182" y="599.5" width="170" height="35.5" rx="5.33" ry="5.33" fill="#f8cecc" stroke="#b85450" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 617px; margin-left: 267px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Vanishing / Exploding<br />Gradient Problem</div></div></div></foreignObject><text x="267" y="621" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Vanishing / Exploding...</text></switch></g><rect x="287" y="864" width="140" height="20" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="287" y="864" width="140" height="20" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 874px; margin-left: 357px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;"><font style="font-size: 11px">Pooling</font></div></div></div></foreignObject><text x="357" y="877" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">Pooling</text></switch></g><path d="M 227 880 Q 257 880 257 877 Q 257 874 287 874" fill="none" stroke="#1f6286" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/><a xlink:href="https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)"><rect x="57" y="959" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="57" y="959" width="170" height="40" rx="6" ry="6" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 979px; margin-left: 142px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Transformer</div></div></div></foreignObject><text x="142" y="983" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Transformer</text></switch></g></a><rect x="287" y="974" width="140" height="20" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="287" y="974" width="140" height="20" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 984px; margin-left: 357px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;"><font style="font-size: 11px">Encoder</font></div></div></div></foreignObject><text x="357" y="987" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">Encoder</text></switch></g><rect x="287" y="1004" width="140" height="20" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="287" y="1004" width="140" height="20" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1014px; margin-left: 357px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;"><font style="font-size: 11px">Decoder</font></div></div></div></foreignObject><text x="357" y="1017" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">Decoder</text></switch></g><rect x="287" y="1034" width="140" height="20" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="287" y="1034" width="140" height="20" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1044px; margin-left: 357px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;"><font style="font-size: 11px">Attention</font></div></div></div></foreignObject><text x="357" y="1047" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">Attention</text></switch></g><path d="M 287 984 Q 257 984 257 981.5 Q 257 979 227 979" fill="none" stroke="#1f6286" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/><path d="M 287 1014 Q 257 1014 257 996.5 Q 257 979 227 979" fill="none" stroke="#1f6286" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/><path d="M 287 1044 Q 257 1044 257 1011.5 Q 257 979 227 979" fill="none" stroke="#1f6286" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/><a xlink:href="https://en.wikipedia.org/wiki/Siamese_neural_network"><rect x="57" y="1009" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="57" y="1009" width="170" height="40" rx="6" ry="6" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1029px; margin-left: 142px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Siamese Network</div></div></div></foreignObject><text x="142" y="1033" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Siamese Network</text></switch></g></a><path d="M 142 1309.5 Q 142 1369.8 227 1369.8 Q 312 1369.8 312 1423.64" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 312 1428.89 L 308.5 1421.89 L 312 1423.64 L 315.5 1421.89 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/><a xlink:href="https://en.wikipedia.org/wiki/Residual_neural_network"><rect x="57" y="1269.5" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="57" y="1269.5" width="170" height="40" rx="6" ry="6" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1290px; margin-left: 142px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Residual Connections</div></div></div></foreignObject><text x="142" y="1293" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Residual Connections</text></switch></g></a><rect x="227" y="1430" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="227" y="1430" width="170" height="40" rx="6" ry="6" fill="#f8cecc" stroke="#b85450" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1450px; margin-left: 312px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Optimizers</div></div></div></foreignObject><text x="312" y="1454" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Optimizers</text></switch></g><rect x="327.25" y="1400" width="110" height="20" fill="none" stroke="none" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1410px; margin-left: 382px;"><div data-drawio-colors="color: #FFFFFF; " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 16px; font-family: Helvetica; color: rgb(255, 255, 255); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: nowrap;"><font style="font-size: 16px" color="#000000">Training</font></div></div></div></foreignObject><text x="382" y="1415" fill="#FFFFFF" font-family="Helvetica" font-size="16px" text-anchor="middle" font-weight="bold">Training</text></switch></g><rect x="227" y="1480" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="227" y="1480" width="170" height="40" rx="6" ry="6" fill="#f8cecc" stroke="#b85450" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1500px; margin-left: 312px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Learning Rate Schedule</div></div></div></foreignObject><text x="312" y="1504" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Learning Rate Schedule</text></switch></g><rect x="227" y="1530" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="227" y="1530" width="170" height="40" rx="6" ry="6" fill="#f8cecc" stroke="#b85450" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1550px; margin-left: 312px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Batch Normalization</div></div></div></foreignObject><text x="312" y="1554" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Batch Normalization</text></switch></g><rect x="227" y="1580" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="227" y="1580" width="170" height="40" rx="6" ry="6" fill="#f8cecc" stroke="#b85450" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1600px; margin-left: 312px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Batch Size Effects</div></div></div></foreignObject><text x="312" y="1604" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Batch Size Effects</text></switch></g><a xlink:href="https://en.wikipedia.org/wiki/Regularization_(mathematics)"><rect x="226" y="1630" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="226" y="1630" width="170" height="40" rx="6" ry="6" fill="#f8cecc" stroke="#b85450" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1650px; margin-left: 311px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Regularization</div></div></div></foreignObject><text x="311" y="1654" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Regularization</text></switch></g></a><a xlink:href="https://en.wikipedia.org/wiki/Multi-task_learning"><rect x="226" y="1680" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="226" y="1680" width="170" height="40" rx="6" ry="6" fill="#f8cecc" stroke="#b85450" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1700px; margin-left: 311px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Multitask Learning</div></div></div></foreignObject><text x="311" y="1704" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Multitask Learning</text></switch></g></a><a xlink:href="https://en.wikipedia.org/wiki/Transfer_learning"><rect x="227" y="1730" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="227" y="1730" width="170" height="40" rx="6" ry="6" fill="#f8cecc" stroke="#b85450" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1750px; margin-left: 312px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Transfer Learning</div></div></div></foreignObject><text x="312" y="1754" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Transfer Learning</text></switch></g></a><path d="M 312 1820 Q 312 1852 211 1852 Q 110 1852 110 1877.64" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 110 1882.89 L 106.5 1875.89 L 110 1877.64 L 113.5 1875.89 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/><path d="M 312 1820 Q 312 1849.5 426 1849.5 Q 540 1849.5 540 1872.64" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 540 1877.89 L 536.5 1870.89 L 540 1872.64 L 543.5 1870.89 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/><a xlink:href="https://arxiv.org/abs/1904.03626"><rect x="227" y="1780" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="227" y="1780" width="170" height="40" rx="6" ry="6" fill="#f8cecc" stroke="#b85450" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1800px; margin-left: 312px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Curriculum Learning</div></div></div></foreignObject><text x="312" y="1804" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Curriculum Learning</text></switch></g></a><a xlink:href="https://en.wikipedia.org/wiki/Stochastic_gradient_descent"><rect x="25" y="1430" width="140" height="14" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="25" y="1430" width="140" height="14" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1437px; margin-left: 95px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;"><font style="font-size: 11px">SGD</font></div></div></div></foreignObject><text x="95" y="1440" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">SGD</text></switch></g></a><a xlink:href="https://en.wikipedia.org/wiki/Stochastic_gradient_descent#Momentum"><rect x="25" y="1450" width="140" height="14" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="25" y="1450" width="140" height="14" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1457px; margin-left: 95px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;"><font style="font-size: 11px">Momentum</font></div></div></div></foreignObject><text x="95" y="1460" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">Momentum</text></switch></g></a><a xlink:href="https://en.wikipedia.org/wiki/Stochastic_gradient_descent#Adam"><rect x="25" y="1470" width="140" height="14" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="25" y="1470" width="140" height="14" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1477px; margin-left: 95px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;"><font style="font-size: 11px">Adam</font></div></div></div></foreignObject><text x="95" y="1480" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">Adam</text></switch></g></a><a xlink:href="https://en.wikipedia.org/wiki/Stochastic_gradient_descent#AdaGrad"><rect x="25" y="1490" width="140" height="14" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="25" y="1490" width="140" height="14" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1497px; margin-left: 95px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;"><font style="font-size: 11px">AdaGrad</font></div></div></div></foreignObject><text x="95" y="1500" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">AdaGrad</text></switch></g></a><a xlink:href="https://ruder.io/optimizing-gradient-descent/index.html#adadelta"><rect x="25" y="1510" width="140" height="14" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="25" y="1510" width="140" height="14" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1517px; margin-left: 95px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;"><font style="font-size: 11px">AdaDelta</font></div></div></div></foreignObject><text x="95" y="1520" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">AdaDelta</text></switch></g></a><a xlink:href="https://ruder.io/optimizing-gradient-descent/index.html#nadam"><rect x="25" y="1530" width="140" height="14" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="25" y="1530" width="140" height="14" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1537px; margin-left: 95px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;"><font style="font-size: 11px">Nadam</font></div></div></div></foreignObject><text x="95" y="1540" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">Nadam</text></switch></g></a><a xlink:href="https://en.wikipedia.org/wiki/Stochastic_gradient_descent#RMSProp"><rect x="25" y="1550" width="140" height="14" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="25" y="1550" width="140" height="14" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1557px; margin-left: 95px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;"><font style="font-size: 11px">RMSProp</font></div></div></div></foreignObject><text x="95" y="1560" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">RMSProp</text></switch></g></a><path d="M 165 1437 Q 196 1437 196 1443.5 Q 196 1450 227 1450" fill="none" stroke="#1f6286" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/><path d="M 165 1457 Q 196 1457 196 1453.5 Q 196 1450 227 1450" fill="none" stroke="#1f6286" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/><path d="M 165 1477 Q 196 1477 196 1463.5 Q 196 1450 227 1450" fill="none" stroke="#1f6286" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/><path d="M 165 1497 Q 196 1497 196 1473.5 Q 196 1450 227 1450" fill="none" stroke="#1f6286" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/><path d="M 165 1517 Q 196 1517 196 1483.5 Q 196 1450 227 1450" fill="none" stroke="#1f6286" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/><path d="M 165 1537 Q 196 1537 196 1493.5 Q 196 1450 227 1450" fill="none" stroke="#1f6286" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/><path d="M 165 1557 Q 196 1557 196 1503.5 Q 196 1450 227 1450" fill="none" stroke="#1f6286" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/><a xlink:href="https://en.wikipedia.org/wiki/Early_stopping"><rect x="25" y="1603" width="140" height="14" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="25" y="1603" width="140" height="14" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1610px; margin-left: 95px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;"><font style="font-size: 11px">Early Stopping</font></div></div></div></foreignObject><text x="95" y="1613" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">Early Stopping</text></switch></g></a><a xlink:href="https://en.wikipedia.org/wiki/Dilution_(neural_networks)"><rect x="25" y="1623" width="140" height="14" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="25" y="1623" width="140" height="14" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1630px; margin-left: 95px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;"><font style="font-size: 11px">Dropout</font></div></div></div></foreignObject><text x="95" y="1633" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">Dropout</text></switch></g></a><a xlink:href="https://www.statisticshowto.com/regularization/"><rect x="25" y="1643" width="140" height="14" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="25" y="1643" width="140" height="14" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1650px; margin-left: 95px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;"><font style="font-size: 11px">Parameter Penalties</font></div></div></div></foreignObject><text x="95" y="1653" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">Parameter Penalties</text></switch></g></a><a xlink:href="https://en.wikipedia.org/wiki/Data_augmentation"><rect x="25" y="1663" width="140" height="14" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="25" y="1663" width="140" height="14" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1670px; margin-left: 95px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;"><font style="font-size: 11px">Data Augmentation</font></div></div></div></foreignObject><text x="95" y="1673" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">Data Augmentation</text></switch></g></a><a xlink:href="https://arxiv.org/pdf/1412.6572.pdf"><rect x="25" y="1683" width="140" height="14" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="25" y="1683" width="140" height="14" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1690px; margin-left: 95px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;"><font style="font-size: 11px">Adversarial Training</font></div></div></div></foreignObject><text x="95" y="1693" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">Adversarial Training</text></switch></g></a><path d="M 165 1610 Q 195.5 1610 195.5 1630 Q 195.5 1650 226 1650" fill="none" stroke="#1f6286" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/><path d="M 165 1630 Q 195.5 1630 195.5 1640 Q 195.5 1650 226 1650" fill="none" stroke="#1f6286" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/><path d="M 165 1650 Q 165 1650 226 1650" fill="none" stroke="#1f6286" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/><path d="M 165 1670 Q 195.5 1670 195.5 1660 Q 195.5 1650 226 1650" fill="none" stroke="#1f6286" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/><path d="M 165 1690 Q 195.5 1690 195.5 1670 Q 195.5 1650 226 1650" fill="none" stroke="#1f6286" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/><a xlink:href="https://www.tensorflow.org/tensorboard"><rect x="25" y="2034" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="25" y="2034" width="170" height="40" rx="6" ry="6" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 2054px; margin-left: 110px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Tensorboard</div></div></div></foreignObject><text x="110" y="2058" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Tensorboard</text></switch></g></a><a xlink:href="https://mlflow.org/"><rect x="25" y="2084.5" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="25" y="2084.5" width="170" height="40" rx="6" ry="6" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 2105px; margin-left: 110px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">MLFlow</div></div></div></foreignObject><text x="110" y="2108" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">MLFlow</text></switch></g></a><rect x="182" y="2285" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="182" y="2285" width="170" height="40" rx="6" ry="6" fill="#f8cecc" stroke="#b85450" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 2305px; margin-left: 267px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Distillation</div></div></div></foreignObject><text x="267" y="2309" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Distillation</text></switch></g><rect x="282.25" y="2245" width="110" height="20" fill="none" stroke="none" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 2255px; margin-left: 337px;"><div data-drawio-colors="color: #FFFFFF; " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 16px; font-family: Helvetica; color: rgb(255, 255, 255); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: nowrap;"><font style="font-size: 16px" color="#000000">Model optimization<br />(advanced)<br /></font></div></div></div></foreignObject><text x="337" y="2260" fill="#FFFFFF" font-family="Helvetica" font-size="16px" text-anchor="middle" font-weight="bold">Model optimiza...</text></switch></g><rect x="182" y="2384.5" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="182" y="2384.5" width="170" height="40" rx="6" ry="6" fill="#f8cecc" stroke="#b85450" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 2405px; margin-left: 267px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Neural Architecture<br />Search (NAS)</div></div></div></foreignObject><text x="267" y="2408" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Neural Architecture...</text></switch></g><a xlink:href="https://towardsdatascience.com/speeding-up-deep-learning-with-quantization-3fe3538cbb9"><rect x="182" y="2334.5" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="182" y="2334.5" width="170" height="40" rx="6" ry="6" fill="#f8cecc" stroke="#b85450" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 2355px; margin-left: 267px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Quantization</div></div></div></foreignObject><text x="267" y="2358" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Quantization</text></switch></g></a><a xlink:href="https://github.com/ChristosChristofidis/awesome-deep-learning"><rect x="255" y="1879" width="140" height="20" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="255" y="1879" width="140" height="20" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1889px; margin-left: 325px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;"><span style="font-size: 11px">Awesome Deep Learning</span></div></div></div></foreignObject><text x="325" y="1892" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">Awesome Deep Learning</text></switch></g></a><a xlink:href="https://github.com/huggingface/transformers"><rect x="255" y="1909" width="140" height="20" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="255" y="1909" width="140" height="20" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1919px; margin-left: 325px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;"><font style="font-size: 11px">Huggingface Transformers</font></div></div></div></foreignObject><text x="325" y="1922" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">Huggingface Transformers</text></switch></g></a><path d="M 195 1904 Q 225 1904 225 1896.5 Q 225 1889 255 1889" fill="none" stroke="#1f6286" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/><path d="M 198 1904.5 Q 227 1905 227 1912 Q 227 1919 255 1919" fill="none" stroke="#1f6286" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="stroke"/><a xlink:href="https://www.youtube.com/watch?v=b3D8jPmcw-g"><rect x="57" y="1219.5" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="57" y="1219.5" width="170" height="40" rx="6" ry="6" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 168px; height: 1px; padding-top: 1240px; margin-left: 58px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">Evolving Architectures / NEAT</div></div></div></foreignObject><text x="142" y="1243" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Evolving Architectures / NEAT</text></switch></g></a><a xlink:href="https://en.wikipedia.org/wiki/Generative_adversarial_network"><rect x="56" y="1109.5" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="56" y="1109.5" width="170" height="40" rx="6" ry="6" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 168px; height: 1px; padding-top: 1130px; margin-left: 57px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">BERT</div></div></div></foreignObject><text x="141" y="1133" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">BERT</text></switch></g></a><a xlink:href="https://en.wikipedia.org/wiki/Generative_adversarial_network"><rect x="57" y="1164.5" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="57" y="1164.5" width="170" height="40" rx="6" ry="6" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 168px; height: 1px; padding-top: 1185px; margin-left: 58px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">GPT Models</div></div></div></foreignObject><text x="142" y="1188" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">GPT Models</text></switch></g></a><rect x="57" y="705.5" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="57" y="705.5" width="170" height="40" rx="6" ry="6" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 726px; margin-left: 142px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">MP Neuron &amp; Perceptron</div></div></div></foreignObject><text x="142" y="729" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">MP Neuron &amp; Perceptron</text></switch></g><path d="M 110 2175 Q 110 2230 188.5 2230 Q 267 2230 267 2278.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 267 2283.88 L 263.5 2276.88 L 267 2278.63 L 270.5 2276.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/><rect x="25" y="2135" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="25" y="2135" width="170" height="40" rx="6" ry="6" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 2155px; margin-left: 110px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Numpy &amp; Pandas</div></div></div></foreignObject><text x="110" y="2159" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Numpy &amp; Pandas</text></switch></g><rect x="455" y="1879" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="455" y="1879" width="170" height="40" rx="6" ry="6" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1899px; margin-left: 540px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Statistics</div></div></div></foreignObject><text x="540" y="1903" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Statistics</text></switch></g><rect x="455" y="1929" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="455" y="1929" width="170" height="40" rx="6" ry="6" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 1949px; margin-left: 540px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Probability theory</div></div></div></foreignObject><text x="540" y="1953" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Probability theory</text></switch></g><rect x="455" y="1983.5" width="170" height="40" rx="6" ry="6" fill="#000000" stroke="#000000" pointer-events="all" transform="translate(2,3)" opacity="0.25"/><rect x="455" y="1983.5" width="170" height="40" rx="6" ry="6" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" dir="ltr" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 2004px; margin-left: 540px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">Information Theory</div></div></div></foreignObject><text x="540" y="2007" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Information Theory</text></switch></g></g><switch><g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/><a transform="translate(0,-5)" xlink:href="https://www.drawio.com/doc/faq/svg-export-text-problems" target="_blank"><text text-anchor="middle" font-size="10px" x="50%" y="100%">Text is not SVG - cannot display</text></a></switch></svg></p>
+<p></center></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+  
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="Best Content" data-md-value="5">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10a10 10 0 0 0 10-10c0-5.53-4.5-10-10-10m0 18a8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8 8 8 0 0 1-8 8m1-10.06L14.06 11l1.06-1.06L16.18 11l1.06-1.06-2.12-2.12L13 9.94m-4.12 0L9.94 11 11 9.94 8.88 7.82 6.76 9.94 7.82 11l1.06-1.06M12 17.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5Z"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="4">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81Z"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="Okayish" data-md-value="3">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 18a8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8 8 8 0 0 1-8 8m-3.5-9A1.5 1.5 0 0 1 7 9.5 1.5 1.5 0 0 1 8.5 8 1.5 1.5 0 0 1 10 9.5 1.5 1.5 0 0 1 8.5 11M17 9.5a1.5 1.5 0 0 1-1.5 1.5A1.5 1.5 0 0 1 14 9.5 1.5 1.5 0 0 1 15.5 8 1.5 1.5 0 0 1 17 9.5M16 14v2H8v-2h8Z"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="2">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14Z"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="Needs lot of improvement" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 18a8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8 8 8 0 0 1-8 8m0-6c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14m-2-4.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5V8l3 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5L17 8v1.5"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="5" hidden>
+              
+              
+                
+              
+              Thanks for your feedback! You are Awesome
+            </div>
+          
+            <div data-md-value="4" hidden>
+              
+              
+                
+              
+              Thanks for your feedback! You are Awesome
+            </div>
+          
+            <div data-md-value="3" hidden>
+              
+              
+                
+              
+              Thanks for your feedback! You are Awesome
+            </div>
+          
+            <div data-md-value="2" hidden>
+              
+              
+                
+              
+              Thanks for your feedback! Help us improve this page by using our <a href="" target="_blank" rel="noopener">feedback form</a>.
+            </div>
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              Thanks for your feedback! Help us improve this page by using our <a href="" target="_blank" rel="noopener">feedback form</a>.
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2023 <a href="https://www.explainableacademy.com" target="_blank" rel="noopener">Explainable Academy</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/TOS/">TOS</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/Privacy/">Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/Disclaimer/">Disclaimer</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#__consent">Change cookie settings</a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+    </div>
+  
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/atulkrjha/ExplainableAcademy" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/ExplainableA" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.instagram.com/ExplainableAcademy/" target="_blank" rel="noopener" title="www.instagram.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.youtube.com/@ExplainableAcademy" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://medium.com/@explainableacademy" target="_blank" rel="noopener" title="medium.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M180.5 74.262C80.813 74.262 0 155.633 0 256s80.819 181.738 180.5 181.738S361 356.373 361 256 280.191 74.262 180.5 74.262Zm288.25 10.646c-49.845 0-90.245 76.619-90.245 171.095s40.406 171.1 90.251 171.1 90.251-76.619 90.251-171.1H559c0-94.503-40.4-171.095-90.248-171.095Zm139.506 17.821c-17.526 0-31.735 68.628-31.735 153.274s14.2 153.274 31.735 153.274S640 340.631 640 256c0-84.649-14.215-153.271-31.742-153.271Z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://patreon.com/ExplainableAcademy" target="_blank" rel="noopener" title="patreon.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M489.7 153.8c-.1-65.4-51-119-110.7-138.3C304.8-8.5 207-5 136.1 28.4 50.3 68.9 23.3 157.7 22.3 246.2 21.5 319 28.7 510.6 136.9 512c80.3 1 92.3-102.5 129.5-152.3 26.4-35.5 60.5-45.5 102.4-55.9 72-17.8 121.1-74.7 121-150z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+  
+
+
+  
+
+
+
+
+<h4>Cookie consent</h4>
+<p>We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better.</p>
+<input class="md-toggle" type="checkbox" id="__settings" >
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+      
+      
+        
+        
+          
+        
+      
+      <li class="task-list-item">
+        <label class="task-list-control">
+          <input type="checkbox" name="analytics" checked>
+          <span class="task-list-indicator"></span>
+          Google Analytics
+        </label>
+      </li>
+    
+      
+      
+        
+        
+      
+      <li class="task-list-item">
+        <label class="task-list-control">
+          <input type="checkbox" name="github" checked>
+          <span class="task-list-indicator"></span>
+          GitHub
+        </label>
+      </li>
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Accept</button>
+    
+    
+    
+  
+    
+    
+    
+      <label class="md-button" for="__settings">Manage settings</label>
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["header.autohide", "navigation.tabs", "navigation.sections", "navigation.instant", "navigation.instant.prefetch", "navigation.tracking", "navigation.path", "navigation.top", "navigation.footer", "navigation.instant.progress", "navigation.expand", "search.suggest", "search.highlight", "search.share", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
