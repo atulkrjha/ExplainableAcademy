@@ -1202,7 +1202,7 @@
           <li class="md-nav__item">
   <a href="#how-to-model-relationship-between-variables" class="md-nav__link">
     <span class="md-ellipsis">
-      *How to model relationship between variables?*
+      How to model relationship between variables?
     </span>
   </a>
   
@@ -1211,7 +1211,7 @@
           <li class="md-nav__item">
   <a href="#how-well-does-the-model-fit-the-data" class="md-nav__link">
     <span class="md-ellipsis">
-      *How well does the model fit the data?*
+      How well does the model fit the data?
     </span>
   </a>
   
@@ -1250,73 +1250,88 @@
 <h2 id="what-is-statistics"><strong>What is statistics?</strong> 📊</h2>
 <p>Knowledge of statistics is required for <strong>collecting</strong> 🧺 (e.g. Designing and collecting data as Randomise controlled experiments), <strong>processing</strong> 🏭 (e.g. for standardizing and normalising data), <strong>describing</strong> 📊 and <strong>modelling</strong> 📈 data (statistical and algorithmic modelling).</p>
 <p>As we have seen in previous article the <a href="https://www.explainableacademy.com/Foundation/Data-Science/"><strong><em>components of Data Science</em></strong></a> namely : </p>
-<p></br></p>
+<p><br></p>
+<p><center></p>
 <p><a href="https://www.explainableacademy.com/Foundation/Data-Science/#what-are-the-tasks-associated-with-data-science:~:text=with%20Data%20Science%3F-,Collect,-What%20is%20involved">⭕ <strong>Collect</strong></a> 🧺</p>
 <p><a href="https://www.explainableacademy.com/Foundation/Data-Science/#what-is-involved-in-data-collections:~:text=knowledge%20of%20Statistics.-,Store,-Transactional%20%26%20Operational%20Data">⭕ <strong>Store</strong></a> 💽</p>
 <p><a href="https://www.explainableacademy.com/Foundation/Data-Science/#what-is-involved-in-data-collections:~:text=useful%20in%20future%29-,Process,-After%20the%20Data">⭕ <strong>Process</strong></a> 🏭</p>
 <p><a href="https://www.explainableacademy.com/Foundation/Data-Science/#what-is-involved-in-data-collections:~:text=in%20subsequent%20chapters.-,Describe,-Describing%20Data%20generally">⭕ <strong>Describe</strong></a> 📊 </p>
 <p><a href="https://www.explainableacademy.com/Foundation/Data-Science/#what-is-involved-in-data-collections:~:text=is%20Inferential%20statistics.-,Model,-Statistical%20Modelling%20%3A">⭕ <strong>Model</strong></a> 📈</p>
-<p></br></p>
-<p>Now, lets look at what is statistics and why it is needed. In more general terms statistics can be defined as </p>
-<p></br></p>
+<p></center></p>
+<p><br></p>
+<p>Now, lets look at <strong>what is statistics</strong> and <strong>why it is needed</strong>. In more general terms statistics can be defined as </p>
 <blockquote>
 <p><strong>The science of collecting, describing and drawing inferences from data</strong></p>
 </blockquote>
-<p></br></p>
 <div class="admonition note">
 <p>💡<strong>The purpose of modelling is to draw inferences about the data (underlying distribution, relationships, etc).</strong></p>
 </div>
-<p></br>
+<p><br>
 Before going further, let’s look at few Key terms and Definitions :</p>
 <p>In Statistics we are always interested in studying a large collection of people or objects.</p>
-<div class="admonition example">
-<p>❓ <strong>For example,</strong> in case of an Opinion poll, what proportion of the citizen support candidate A?</p>
-</div>
-<p></br>
-In the above case, to know the proportion taking into account the whole population is expensive.</p>
-<div class="admonition note">
+<div class="admonition question">
+<p class="admonition-title">In case of an Opinion poll, what proportion of the citizen support candidate A?</p>
+<p>In the above case, to know the proportion taking into account the whole population is expensive.</p>
 <p>🚧 <strong>Challenge</strong> : Infeasible (expensive) to survey all citizen.</p>
 </div>
 <p>Let’s take another example:</p>
-<div class="admonition example">
-<p>❓ <strong>For example</strong>, Is there a lot of variations in the yield of different paddy farms in a state?</p>
+<div class="admonition question">
+<p class="admonition-title">Is there a lot of variations in the yield of different paddy farms in a state?</p>
+<p>In this case, the amount of resources required to survey all the paddy farm is huge.
+🚧 <strong>Challenge :</strong> Not enough resources to survey all farms.</p>
 </div>
-<p>In this case, the amount of resources required to survey all the paddy farm is huge.</p>
-<div class="admonition note">
-<p>🚧 <strong>Challenge :</strong> Not enough resources to survey all farms.</p>
-</div>
+<p><br></p>
 <p>Then, what solution do we have?</p>
 <div class="admonition note">
 <p>✅ <strong>Solution :</strong> Survey only a few elements and draw inferences about all elements from this smaller group.</p>
 </div>
 <p>This brings us to two important concepts in Statistics:</p>
+<div class="admonition info inline">
 <p>💠 <strong>Population</strong> : 👨‍👨‍👧‍👧 A population is the total collection of all objects that we are interested in studying.</p>
+</div>
+<div class="admonition info">
 <p>💠 <strong>Sample</strong> : 🧑‍🤝‍🧑 A sample is a subgroup of the population that we study to draw inferences about the population</p>
+</div>
+<p><br></p>
 <p>We are typically interested in estimating some parameter of the population</p>
 <p>for example,</p>
 <div class="admonition note">
-<p>📝 👾 Population of citizens in favor of a candidate</p>
-<p>👾 Average mileage of cars produced in a factory.</p>
-<p>👾 variance in the yield of farms in a state</p>
+<ul>
+<li>
+<p>Population of citizens in favor of a candidate</p>
+</li>
+<li>
+<p>Average mileage of cars produced in a factory.</p>
+</li>
+<li>
+<p>variance in the yield of farms in a state</p>
+</li>
+</ul>
 </div>
 <blockquote>
 <p>This quantity estimated from a small sample is called a statistic</p>
-<p>Proportion, mean, median, std deviation, variance etc. when computed from a sample is called a statistic.
-</p>
+<p>Proportion, mean, median, std deviation, variance etc. when computed from a sample is called a statistic.</p>
 </blockquote>
 <p>Thus,</p>
 <p>A <strong>Population</strong> 👨‍👨‍👧‍👧 is any numeric property of the entire population under study</p>
-<p>A <strong>statistic</strong> 🧑‍🤝‍🧑 is any property of the sample of a population which is used as an estimate for the corresponding parameter of the population. ****</p>
+<p>A <strong>statistic</strong> 🧑‍🤝‍🧑 is any property of the sample of a population which is used as an estimate for the corresponding parameter of the population. </p>
 <blockquote>
-<p>These are the four most fundamental concepts in statistics. i.e Population : Parameter ; Sample : statistic.
-</p>
+<p>These are the four most fundamental concepts in statistics. i.e Population : Parameter ; Sample : statistic.</p>
 </blockquote>
 <h2 id="how-to-select-a-sample"><strong>How to select a sample?</strong></h2>
 <p>A Sample and the resulting statistic will be useful only if it is representative of the population. Since all our studies are going to be based on the sample, it is important to select a good sample.</p>
 <p>There are different ways to select sample, some of which are listed below which we will look into in upcoming chapters.</p>
-<p>🐦 Simple Random Sampling</p>
-<p>🐦 Stratified Sampling</p>
-<p>🐦 Cluster Sampling etc.</p>
+<ul class="task-list">
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Simple Random Sampling</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Stratified Sampling</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Cluster Sampling etc.</p>
+</li>
+</ul>
 <h2 id="how-to-design-an-experiment-to-collect-data"><strong>How to design an experiment to collect data?</strong></h2>
 <p>Lets take for an example, A doctor wants to know does taking bitter gourd for 6 months help reduce sugar levels?</p>
 <p>How do we go about answering this question? </p>
@@ -1324,7 +1339,7 @@ In the above case, to know the proportion taking into account the whole populati
 <p>☑️ Measure their cholesterol level today</p>
 <p>☑️ ask them to consume 5 bitter gourd/week for 6 months</p>
 <p>☑️ measure their cholesterol level after 6 months</p>
-<div class="admonition note">
+<div class="admonition bug">
 <p>⛔ <strong>But this is a very flawed way to approach the experiment</strong></p>
 <p>why is that ? Let’s say some members take up physical exercise and hence their cholesterol level decreases? or vice versa, it increases due to other factors.</p>
 </div>
@@ -1334,10 +1349,20 @@ In the above case, to know the proportion taking into account the whole populati
 </p>
 </blockquote>
 <p>This is where we will learn about </p>
-<p>🐧 Randomised control experiments</p>
-<p>🐧 Explanatory, response and lurking variables</p>
-<p>🐧 Treatments, control groups, placebo</p>
-<p>🐧 Single blind and double blind experiments</p>
+<ul class="task-list">
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Randomised control experiments</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Explanatory, response and lurking variables</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Treatments, control groups, placebo</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Single blind and double blind experiments</p>
+</li>
+</ul>
 <h2 id="how-to-describe-and-summarise-data"><strong>How to Describe and Summarise Data?</strong></h2>
 <p>Let’s take an example of Video streaming company, having user watch data.</p>
 <table>
@@ -1381,21 +1406,22 @@ In the above case, to know the proportion taking into account the whole populati
 <p>This entire branch of statistics that deals with describing and summarizing data is called <strong>Descriptive Statistics.</strong></p>
 <p>Below is some of the topics we will cover in upcoming chapters,</p>
 <p>Descriptive Statistics.</p>
-<p>◾ (relative) frequency charts, frequency polygons, histograms, stem-and-leaf plots, box plots, scatter plots etc.</p>
-<p>◾ measures of centrality and spread.</p>
+<ul class="task-list">
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> (relative) frequency charts, frequency polygons, histograms, stem-and-leaf plots, box plots, scatter plots etc.</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <a href="../Descriptive-Statistics/Measure-Of-Centrality/">measures of centrality</a> and <a href="../Descriptive-Statistics/Measure-Of-Spread/Percentiles/">spread</a>.</p>
+</li>
+</ul>
 <h3 id="why-do-we-need-probability-theory"><strong>Why do we need Probability Theory?</strong></h3>
 <p>Lets take the previous example of Opinion Polls, we we have to select a sample and lets say we choose all college students of a particular college.</p>
-<aside>
-❓ Do you think that’s a good sample to take?
-
-</aside>
-
-<blockquote>
-<p>A sampling strategy is said to be truly random (unbiased) if every element in the population has an <strong><em>equal chance</em></strong> of becoming a part of the sample.
-</p>
-</blockquote>
+<div class="admonition question">
+<p class="admonition-title">Do you think that’s a good sample to take?</p>
+<p>A sampling strategy is said to be truly random (unbiased) if every element in the population has an <strong><em>equal chance</em></strong> of becoming a part of the sample.</p>
+</div>
 <h3 id="so-what-do-we-mean-by-chance"><strong>So, what do we mean by chance?</strong></h3>
-<p>◾ The branch of Mathematics that deals with chances and probabilities is called <strong>Probability Theory.</strong></p>
+<p>The branch of Mathematics that deals with chances and probabilities is called <strong>Probability Theory.</strong></p>
 <p>Population : 👨‍👨‍👦‍👦👨‍👨‍👦‍👦👨‍👨‍👦‍👦👨‍👨‍👦‍👦👨‍👨‍👦‍👦👨‍👨‍👦‍👦👨‍👨‍👦‍👦👨‍👨‍👦‍👦👨‍👨‍👦‍👦👨‍👨‍👦‍👦 (20 elements)</p>
 <p>Sample : 👬 (2 elements)</p>
 <p>In how many ways can we select a sample of size 2 from a population of size 20?</p>
@@ -1409,9 +1435,17 @@ In the above case, to know the proportion taking into account the whole populati
 </p>
 </blockquote>
 <p>Thus we will learn much more later in upcoming chapters. </p>
-<p>🐵 Sample spaces, event, axioms of probability</p>
-<p>🐵 discrete and continuous random variables</p>
-<p>🐵 Bernoulli, Uniform and Normal Distribution</p>
+<ul class="task-list">
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <a href="../../Probability-Theory\Probability_Theory_1.ipynb">Sample spaces, event, axioms of probability</a></p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <a href="../../Probability-Theory\Probability_Theory_3.ipynb">Discrete and continuous random variables</a></p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Bernoulli, Uniform and Normal Distribution</p>
+</li>
+</ul>
 <h3 id="how-do-we-give-guarantees-for-estimates-made-from-sample"><strong>How do we give guarantees for estimates made from sample?</strong></h3>
 <table>
 <thead>
@@ -1500,28 +1534,52 @@ In the above case, to know the proportion taking into account the whole populati
 </p>
 </blockquote>
 <p>Thus to make these kind of <strong><em>robust statements</em></strong> about the population, we need to know <strong><em>Hypothesis testing</em></strong>, which we will learn in subsequent chapters.</p>
-<p>🦔 Single population, Two population, multiple population</p>
-<p>🦔 z-tests, t-tests, Analysis of Variance (ANOVA) </p>
-<h3 id="how-to-model-relationship-between-variables"><strong><em>*How to model relationship between variables?</em></strong>*</h3>
+<ul class="task-list">
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Single population, Two population, multiple population</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> z-tests, t-tests, Analysis of Variance (ANOVA) </p>
+</li>
+</ul>
+<h3 id="how-to-model-relationship-between-variables"><strong>How to model relationship between variables?</strong></h3>
 <p><strong>Statistical modelling :</strong></p>
 <p>✅ Assume a simple relationship between the variables.</p>
 <p>✅ Estimate parameters (m and c ) from data such that the predicted y is close to the actual y.</p>
 <p>✅ Deal with uncertainty ( remember m and c are estimated from a sample, not population )</p>
 <p>✅ Are we 99 % sure that the value of m estimated from this sample lies within a small neighborhood around the true value of m?</p>
 <p>What we will learn in upcoming chapters :</p>
-<p>🐯 Linear Regression </p>
-<p>◾ estimating parameters</p>
-<p>◾ estimating confidence bands</p>
-<p>◾ measuring goodness of fit</p>
-<h3 id="how-well-does-the-model-fit-the-data"><strong><em>*How well does the model fit the data?</em></strong>*</h3>
+<ul class="task-list">
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Linear Regression </p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> estimating parameters</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> estimating confidence bands</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> measuring goodness of fit</p>
+</li>
+</ul>
+<h3 id="how-well-does-the-model-fit-the-data"><strong>How well does the model fit the data?</strong></h3>
 <blockquote>
 <p>We have estimated a model based on sample and thus an element of chance creeps in and thus we needs to come up with tests which says how well is the statistics from the estimated data as compared to the hypothesied model.
 </p>
 </blockquote>
 <p>We will learn following in upcoming chapters</p>
-<p>🐯 Chi-square test</p>
-<p>◾determine goodness of fit</p>
-<p>◾ determine if 2 variables are independent</p>
+<ul class="task-list">
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Chi-square test</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> determine goodness of fit</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> determine if 2 variables are independent</p>
+</li>
+</ul>
 
 
 
