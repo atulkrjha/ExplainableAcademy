@@ -37,7 +37,7 @@
 }
 
 * {
-    --md-primary-fg-color: #FFFFFF;
+    --md-primary-fg-color: #5B9A8B;
     --md-primary-fg-color--light: #029c8e;
     --md-primary-fg-color--dark:  #303C55;
     --md-typeset-color:   var(--md-default-fg-color);
