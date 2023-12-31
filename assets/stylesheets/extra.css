@@ -124,3 +124,7 @@ hide content only for mobile devices
     background-color: black;
     color: white;
 }
+
+.md-header__inner{
+    color: white;
+}
