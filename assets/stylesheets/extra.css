@@ -126,5 +126,7 @@ hide content only for mobile devices
 }
 
 .md-header__inner{
+    font-weight: 600;
+    background-color: black;
     color: white;
 }
