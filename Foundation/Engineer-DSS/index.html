@@ -94,7 +94,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#1-engineering-data-science-systems" class="md-skip">
+        <a href="#engineering-data-science-systems" class="md-skip">
           Skip to content
         </a>
       
@@ -1120,6 +1120,24 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#what-is-systems-thinking" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is Systems Thinking? 🤖
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-science-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Science Process
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#crisp-dm" class="md-nav__link">
     <span class="md-ellipsis">
       CRISP - DM
@@ -1201,17 +1219,17 @@
   
 </li>
         
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
+          <li class="md-nav__item">
   <a href="#deployment" class="md-nav__link">
     <span class="md-ellipsis">
       Deployment :
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1238,62 +1256,100 @@
   
 
 
-<h1 id="1-engineering-data-science-systems">1. Engineering Data Science Systems</h1>
-<p><strong>What is Systems Thinking?</strong> 🤖</p>
+<h1 id="engineering-data-science-systems">Engineering Data Science Systems</h1>
+<h2 id="what-is-systems-thinking"><strong>What is Systems Thinking?</strong> 🤖</h2>
+<p><br></p>
 <p>In a more broader sense systems thinking can be defined as a way of thinking about systems that is global🌍 and encompassing rather than focused on particular issue.</p>
 <p>Understand the larger context and then make choices around the design that we are building. </p>
+<p><br></p>
+<p><center></p>
 <blockquote>
-<p>Even if we are building a small part of a large system, we should have in mind what the larger goal is and doing so is Systems thinking.
-</p>
+<p>Even if we are building a small part of a large system, we should have in mind what the larger goal is and doing so is Systems thinking.</p>
 </blockquote>
+<p></center></p>
+<p><br></p>
 <p>Let’s take an example of engineering a Data Science System</p>
-<aside>
-<img src="https://www.notion.so/icons/help-alternate_orange.svg" alt="https://www.notion.so/icons/help-alternate_orange.svg" width="40px" /> what do you think would be the components in a Data Science System
-
-</aside>
-
-<aside>
-<img src="https://www.notion.so/icons/verified_green.svg" alt="https://www.notion.so/icons/verified_green.svg" width="40px" /> The first answer that comes to mind is **Data** 🤪. But what else                                              Data Science System = Data + —— + —— + —— …….
-
-</aside>
-
+<div class="admonition question">
+<p class="admonition-title">Question</p>
+<p><center> 
+what do you think would be the components in a Data Science System</p>
+<p></center></p>
+</div>
+<p>The first answer that comes to mind is <strong>Data</strong> . But what else                                              Data Science System = Data + —— + —— + —— …….</p>
 <p><strong>One way to fill the gap is by understanding the process involved to engineer a Data Science System.</strong></p>
+<h2 id="data-science-process"><strong>Data Science Process</strong></h2>
 <p>Thinking about it, an easy guess would be domain knowledge along with Maths, Stats and engineering skills</p>
-<p>🟢 Domain Knowledge</p>
-<p>🟢 Math and Stats</p>
-<p>🟢 Hacking Skills (Engineering Skills)</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"></th>
+<th style="text-align: left;"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">🟢 Domain Knowledge</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">🟢 Math and Stats</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">🟢 Hacking Skills (Engineering Skills)</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 <p>Another way to show this is :</p>
-<p>🟠 Business</p>
-<p>🟠 Programming</p>
-<p>🟠 Statistics</p>
-<p>🟠 Communication</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"></th>
+<th style="text-align: left;"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">🟠 Business</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">🟠 Programming</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">🟠 Statistics</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">🟠 Communication</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 <p>Based on the skills and their usage different roles are defined : </p>
 <p><strong>Data Scientist</strong> 🥼 : Generally someone who understands all the above aspects (Business + Programming + statistics + Communication)</p>
 <p><strong>Data Analyst</strong> 👩🏽‍💼 <strong>:</strong> Someone who understands business and is able to communicate well with some knowledge of progamming/statisics</p>
 <p><strong>Research Engineer 📊 :</strong> High programming + Statistics + Communication, might not have the Business understanding</p>
 <p><strong>Data Engineer 👨🏽‍💻 :</strong> High business + Programming (integrate different IT infrastructure (Data Sources/systems) to perform the task.)</p>
 <p>Now let’s shift our gear to look at one of the popular process used for engineering a Data Science System.</p>
-<h2 id="crisp-dm">CRISP - DM</h2>
+<h2 id="crisp-dm"><strong>CRISP - DM</strong></h2>
 <p>Engineering Systems for Data Science involves two components :</p>
-<p><strong>Process 🧾 + Programming 👨🏽‍💻</strong></p>
-<aside>
-<img src="https://www.notion.so/icons/help-alternate_orange.svg" alt="https://www.notion.so/icons/help-alternate_orange.svg" width="40px" /> What is a process then while building a system?
-
-</aside>
-
+<div class="admonition info">
+<p class="admonition-title"><strong>Process 🧾 + Programming 👨🏽‍💻</strong></p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Question</p>
+<p>What is a process then while building a system?</p>
+</div>
 <p>A process can be though of as  Flow of Steps + Agile improvements  (start with small components and improve it gradually)</p>
-<p>One of the example of such a process to design engineering system for data science is <strong>CRISP-DM.</strong></p>
-<ol>
-<li><strong>Business understanding 👩🏽‍💼</strong></li>
-<li><strong>Data Understanding</strong>  🧹</li>
-<li><strong>Data Preparation 🕋</strong></li>
-<li><strong>Modelling 📊</strong></li>
-<li><strong>Evaluation 📋</strong></li>
-<li><strong>Deployment 🚀</strong></li>
-</ol>
+<p>One of the example of such a process to design engineering system for data science is <strong><code>CRISP-DM.</code></strong></p>
+<p><br></p>
+<div class="admonition info inline">
 <p><center>
 <pre class="mermaid"><code>graph TD
-  Business_Understanding --&gt; Data_Understanding
+Business_Understanding --&gt; Data_Understanding
     Data_Understanding --&gt; Business_Understanding
     Data_Understanding --&gt; Data_Preparation
     Data_Preparation --&gt; Modelling
@@ -1303,49 +1359,147 @@
     Evaluation --&gt; Business_Understanding
 
 </code></pre></p>
-<p></center>
-The above <strong>Entire process is iteratively continuous.</strong> </p>
+<p></center></p>
+</div>
+<p><br></p>
+<p><center></p>
+<div class="admonition info inline">
+<p><strong>Business understanding 👩🏽‍💼</strong></p>
+</div>
+<div class="admonition info inline">
+<p><strong>Data Understanding</strong>  🧹</p>
+</div>
+<div class="admonition info inline">
+<p><strong>Data Preparation 🕋</strong></p>
+</div>
+<div class="admonition info inline">
+<p><strong>Modelling 📊</strong></p>
+</div>
+<div class="admonition info inline">
+<p><strong>Evaluation 📋</strong></p>
+</div>
+<div class="admonition info inline">
+<p><strong>Deployment 🚀</strong></p>
+</div>
+<p></center></p>
+<p>The <strong>Entire process is iteratively continuous.</strong> </p>
 <p>Let’s Zoom into each component of the process and see what we can ask to better understand the requirement</p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
 <h2 id="crisp-dm_business-understanding"><strong>CRISP-DM_Business Understanding</strong></h2>
 <h2 id="business-understanding">Business Understanding</h2>
-<p>🟣 What are the business objectives?</p>
-<p>🟣 Can data Science achieve those objects? (most of the times it just reveals the existing systems shortcoming)</p>
-<p>🟣 How do we define success metrics?</p>
-<p>🟣 Are there ethical consideration in data usage?</p>
-<p>🟣 what have other industries achieved? (what is state of the art (SOTA))</p>
+<ul class="task-list">
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> What are the business objectives?</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Can data Science achieve those objects? (most of the times it just reveals the existing systems shortcoming)</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> How do we define success metrics?</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Are there ethical consideration in data usage?</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> what have other industries achieved? (what is state of the art (SOTA))</p>
+</li>
+</ul>
 <h2 id="crisp-dm_data-understanding-preparation-modelling"><strong>CRISP - DM_Data Understanding, Preparation &amp; Modelling :</strong></h2>
 <h2 id="data-understanding"><strong>Data Understanding :</strong></h2>
-<p>⭐ What are the sources of data?</p>
-<p>⭐ Does new data needs to be collected? (slow and expensive)</p>
-<p>⭐ What bis the quality and quantity of data?</p>
-<p>⭐ What do different data items represent?</p>
-<p>⭐ Which data is relevant to the objective?</p>
+<ul class="task-list">
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> What are the sources of data?</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Does new data needs to be collected? (slow and expensive)</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> What bis the quality and quantity of data?</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> What do different data items represent?</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Which data is relevant to the objective?</p>
+</li>
+</ul>
 <h2 id="agile-steps-for-data-preparation"><strong>Agile steps for</strong> <strong>Data Preparation :</strong></h2>
-<p>✳️ What are the different data formats?</p>
-<p>✳️ Is there need for annotating data?</p>
-<p>✳️ How can data be Extracted, transformed and loaded?</p>
-<p>✳️ How to standardise (ensuring data has 0 mean and unit variance) and normalise data (data is between 0 and 1 where o and 1 are mapped to min and max)?</p>
-<p>✳️ How to efficiently store data for analysis?</p>
+<ul class="task-list">
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> What are the different data formats?</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Is there need for annotating data?</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> How can data be Extracted, transformed and loaded?</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> How to standardise (ensuring data has 0 mean and unit variance) and normalise data (data is between 0 and 1 where o and 1 are mapped to min and max)?</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> How to efficiently store data for analysis?</p>
+</li>
+</ul>
 <h2 id="data-modelling"><strong>Data Modelling</strong></h2>
-<p>🐤 What assumptions to make for the models?</p>
-<p>🐤 Statistical or algorithmic modelling? (statistical - when we want to use simple sets of models but give strong concrete statistical evidence for what we find, whereas algorithmic one is when we throw a bunch of complex models and allow the machine to find the optimal one using algorithms )</p>
-<p>🐤 Is clean data is sufficient for modelling?</p>
-<p>🐤 Is the compute budget sufficient for modelling?</p>
-<p>🐤 Are results are statistically significant?</p>
+<ul class="task-list">
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> What assumptions to make for the models?</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Statistical or algorithmic modelling? (statistical - when we want to use simple sets of models but give strong concrete statistical evidence for what we find, whereas algorithmic one is when we throw a bunch of complex models and allow the machine to find the optimal one using algorithms )</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Is clean data is sufficient for modelling?</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Is the compute budget sufficient for modelling?</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Are results are statistically significant?</p>
+</li>
+</ul>
 <h2 id="crisp-dm_evalution-deployment"><strong>CRISP - DM_Evalution &amp; Deployment :</strong></h2>
-<h3 id="evaluation">Evaluation :</h3>
+<h3 id="evaluation"><strong>Evaluation</strong> :</h3>
 <p>Once Data scientistic has finished working on the modelling and proven it is statistically relevant they pass it on to evaluation.</p>
-<p>👾 Does model work correctly with test data?</p>
-<p>👾 Does model achieve business objective?</p>
-<p>👾 Does model meet performance requirements?</p>
-<p>👾 Is the model unbiased and robust?</p>
-<p>👾 What are the ways to improve the model</p>
-<h2 id="deployment">Deployment :</h2>
-<p>🤖 Where is the models to be deployed? (Mobile, Servers, drones etc)</p>
-<p>🤖 What is the H/W, S/W stack for deployment</p>
-<p>🤖 Does it meets performance requirements (Battery limitation , latency etc)</p>
-<p>🤖 Does it violates privacy requirements</p>
-<p>🤖 Does it meets user’s expectations</p>
+<ul class="task-list">
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Does model work correctly with test data?</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Does model achieve business objective?</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Does model meet performance requirements?</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Is the model unbiased and robust?</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> What are the ways to improve the model</p>
+</li>
+</ul>
+<h3 id="deployment"><strong>Deployment</strong> :</h3>
+<ul class="task-list">
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Where is the models to be deployed? (Mobile, Servers, drones etc)</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> What is the H/W, S/W stack for deployment</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Does it meets performance requirements (Battery limitation , latency etc)</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Does it violates privacy requirements</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Does it meets user’s expectations</p>
+</li>
+</ul>
 <p>This whole process needs to be done iteratively along with</p>
 <ol>
 <li>Iteratively design and deployment —&gt; MVP</li>
