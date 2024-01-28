@@ -173,9 +173,9 @@ hide content only for mobile devices
 
 @media (max-width: 768px) {
     #completion-info {
-        top: 0;
-        left: 0;
-        width: 100%;
+        top: 15%;
+        left: 60%;
+        width: 40%;
     }
 }
 
