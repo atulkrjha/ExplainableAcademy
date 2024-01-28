@@ -1148,7 +1148,7 @@ for (i=0; i<divval.length; i++ ) {
             // Get all course elements
             const courseElements = document.querySelectorAll('#rd-start svg a div div div');
 
-            const completionInfo = document.getElementById('completion-info');
+            var completionInfo = document.getElementById('completion-info');
 
             // Initialize counters
             let completedCount = 0;
@@ -1197,7 +1197,9 @@ for (i=0; i<divval.length; i++ ) {
           updateCompletionInfo();
 
             function updateCompletionInfo() {
-                completionInfo.textContent = `Completed: ${completedCount}, Total : ${courseElements.length} courses`;
+                completionInfo.innerHTML = `Completed: ${completedCount}</br> Total : ${courseElements.length}
+
+                <br> <strong>Note : </strong> Right click on link to mark it complete or press and hold for mobile devices`;
             }
 
         });
