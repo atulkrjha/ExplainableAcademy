@@ -129,3 +129,46 @@ hide content only for mobile devices
     color : #029c8e;
 }
 
+.rdm-link {
+    color: gray;
+    text-decoration :underline;
+}
+
+.rdm-link-done {
+    pointer-events: none;
+    cursor: default;
+    color: gray;
+    text-decoration :line-through;
+    
+}
+
+.course {
+    padding: 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.completed {
+    pointer-events: none;
+    cursor: default;
+    color: gray;
+    text-decoration :line-through;
+    text-decoration-color: blue;
+    text-decoration-thickness: 15%;
+
+}
+
+#completion-info {
+    position: fixed;
+    top: 15%;
+    left: 5%;
+    width: 20%;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    z-index: 1000;
+}
+
+
